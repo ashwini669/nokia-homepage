@@ -12,15 +12,21 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-   
+
+ <!-- header -->
     <nav class="navbar navbar-default nokia-header">
-     <div class="container">
-        <div class="row">
-          <div class="col-md-1">
+      <div class="container">
+        
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" style="margin-top:30px;"data-toggle="collapse" data-target="#micon">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#myPage" style="margin-top:20px;font-size:30px;font-weight: bold;font-family: sans-serif; color:  #3b5998">NOKIA</a>
           </div>
 
-          <div class="col-md-11" id="myNavbar">
+          <div class="collapse navbar-collapse" id="micon">
             <ul class="nav navbar-nav navbar-right" style="margin-top:20px; margin-right:40px;font-size:15px">
               <li>
                   <a href="#consumers" class="class1" data-toggle="dropdown">For consumers
@@ -78,7 +84,7 @@
               </li>
 
               <li style="margin-top: 10px; color: darkblue; padding-left:50px;font-size: 25px;"><span class="glyphicon glyphicon-globe"data-toggle="dropdown"></span>
-                    <div class="container dropdown-menu" style="margin-left:60px;width:970px;height:800px ;">
+                    <div class="container dropdown-menu" style="margin-left:60px;width:950px;height:800px ;">
                        <p style="background-color:lightsteelblue;">
                           <a class="class4" href="#" style="margin-left: 30px;">Home</a>
                        </p>
@@ -152,8 +158,8 @@
               </li>
               
               <li style="margin-top: 10px;color: darkblue; padding-left:50px;font-size: 25px;"data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span></li>
-                    <div class="dropdown-menu" style="margin-right: 80px; width:100%">
-                        <input type="text" size="115"placeholder="search" style="margin-left: 15px;margin-top: 10px;"></input>
+                    <div class="dropdown-menu" style="margin-right: 80px; width:480px">
+                        <input type="text" size="43"placeholder="search" style="margin-left: 15px;margin-top: 10px;"></input>
                         <button type="button" class="btn btn-md btn-primary" style="margin-left: 20px;margin-top: 8px; text-align:center;">Search</button>
                     </div>
              </li>
@@ -228,7 +234,7 @@
                 
             </ul>
           </div>
-       </div>
+       
      </div>
   </nav>
 
@@ -256,7 +262,7 @@
  </div>
      
  <!-- div container 2 -->
-   <div class="container" style="background-color: lightgrey; height: 900px;">  
+   <div class="container div2" style="background-color: lightgrey; height: 900px;">  
     <div class="row">
          <div class="col-md-5"><br><br>
              <div class="row img1 big">
@@ -292,10 +298,10 @@
 
    
   <!-- div container 3 -->
-   <div class="container" style="padding-top: 90px;">
+   <div class="container div3" style="padding-top: 90px;">
       <div class="row">
 
-          <div class="col-md-3" style="margin-right:100px;">
+          <div class="col-md-3 div3_column1" style="margin-right:100px;">
               <div>
                 <h4>Latest press release</h4>
               </div><br>
@@ -310,7 +316,7 @@
               </div>             
           </div>     
 
-          <div class="col-md-3" style="padding-left: 15px;">
+          <div class="col-md-3 div3_column2" style="padding-left: 15px;">
               <div>
                 <h4>Latest event</h4>
               </div><br>
@@ -326,13 +332,13 @@
           </div>     
         
 
-        <div class="col-md-3" style="padding-left: 110px;">
+        <div class="col-md-3 div3_column3" style="padding-left: 110px;">
             <div>
               <h4>Latest blog</h4>
             </div><br>
             <div>
               <img src="./images/photo9.webp" class="big"width="350px" height="300px">
-             <a href="#" class="link"> <h4 style="color: blue; padding-top: 10px;">How technology is making the mineral resources industry more sustainable </h4></a>
+              <a href="#" class="link"> <h4 style="color: blue; padding-top: 10px;">How technology is making the mineral resources industry more sustainable </h4></a>
               <small>18 September 2020</small>
               <br>
               <h5 style="color: blue;"> <a href="#" class="link">See more blog posts
@@ -343,10 +349,10 @@
 
       </div>
    </div>
-   
+  
   <!-- footer-->
    <div class="container-fluid">
-     <div class="footer">
+     <div class="footer div4">
       <div>
         <h2 class="footer-head">NOKIA</h2>
       </div>
@@ -355,31 +361,31 @@
 
               <div class="col-md-4">
                    <div class="row">
-                      <div class="col-md-1">
+                      <div class="col-md-1 icon1">
                         <a href="#">
                           <img class="img-circle symbol" src="./icons/insta_icon.png" width="30" height="30">
                         </a>
                       </div>
                    
-                      <div class="col-md-1" style="padding-left: 45px;">
+                      <div class="col-md-1 icon2" style="padding-left: 45px;">
                         <a href="#">
                           <img class="img-circle symbol" src="./icons/utube_icon.png" width="30" height="30">
                         </a>
                       </div>
 
-                      <div class="col-md-1" style="padding-left: 45px;">
+                      <div class="col-md-1 icon3" style="padding-left: 45px;">
                         <a href="#">
                           <img class="img-circle symbol" src="./icons/twitter.png" width="30" height="30">
                         </a>
                       </div>
 
-                      <div class="col-md-1" style="padding-left: 45px;">
+                      <div class="col-md-1 icon4" style="padding-left: 45px;">
                         <a href="#">
                           <img class="img-circle symbol" src="./icons/fb_icon.png" width="30" height="30">
                         </a>
                       </div>
 
-                      <div class="col-md-1" style="padding-left: 45px;">
+                      <div class="col-md-1 icon5" style="padding-left: 45px;">
                         <a href="#">
                           <img class="img-circle symbol" src="./icons/in_icon.jpeg" width="30" height="30">
                         </a>
@@ -387,7 +393,7 @@
                   </div>            
               </div>
 
-              <div class="col-md-2" style="padding-left: 1px;">
+              <div class="col-md-2 div4_p1" style="padding-left: 1px;">
                 <p>See all of our social media</p>
               </div>
 
@@ -410,27 +416,27 @@
            <div class="col-md-3">
               <div class="row"> <label style="padding-left: 25px;">For Consumers</label></div><br>
               <div class="row">
-                <div class="col-md-6"style="padding-left: 25px;">
+                <div class="col-md-6 div4_col1"style="padding-left: 25px;">
                   <small><a href="#" class="class2">Phone</a></small> <br><br>
                   <small><a href="#"class="class2">Home WiFi</a></small> <br><br>
                   <small><a href="#"class="class2">Smart TVs</a></small> 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 div4_col2">
                   <small><a href="#"class="class2">Streaming devices</a></small> <br><br>
                   <small><a href="#"class="class2">Audio</a></small> 
                 </div>
               </div>
            </div>
 
-           <div class="col-md-3">
+           <div class="col-md-3 div4_col">
               <div class="row"> <label style="padding-left: 25px;">For Business</label></div><br>
               <div class="row">
-                <div class="col-md-6"style="padding-left: 25px;">
+                <div class="col-md-6 div4_col3"style="padding-left: 25px;">
                   <small><a href="#" class="class2">Solutions for service providers</a></small> <br><br>
                   <small><a href="#" class="class2">Solutions for industry and public sector</a></small> <br><br>
                   <small><a href="#" class="class2">Phones for business</a></small> 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 div4_col4">
                   <small><a href="#" class="class2">Licensing opportunities</a></small> <br><br>
                   <small><a href="#" class="class2">Brand Licensing</a></small> <br><br>
                   <small><a href="#" class="class2">OZO</a></small> <br><br>
@@ -439,10 +445,10 @@
               </div>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 div4_col">
             <div class="row"> <label style="padding-left: 25px;">Innovation</label></div><br>
             <div class="row">
-              <div class="col-md-8"style="padding-left: 25px;">
+              <div class="col-md-8 div4_col5"style="padding-left: 25px;">
                 <small><a href="#" class="class2">Innovation platform</a></small> <br><br>
                 <small><a href="#" class="class2">NGP Capital</a></small> <br><br>
                 <small><a href="#" class="class2">Nokia Bell Labs</a></small><br><br>
@@ -451,25 +457,25 @@
             </div>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 div4_col">
             <div class="row"> <label style="padding-left: 25px;">About us</label></div><br>
             <div class="row">
-              <div class="col-md-6"style="padding-left: 25px;">
+              <div class="col-md-6 div4_col6"style="padding-left: 25px;">
                 <small><a href="#" class="class2">News and events</a></small> <br><br>
                 <small><a href="#" class="class2">Sustainability</a></small> <br><br>
                 <small><a href="#" class="class2">Investors</a></small>
               </div>
-              <div class="col-md-6"style="padding-left: 25px;">
+              <div class="col-md-6 div4_col7"style="padding-left: 25px;">
                 <small><a href="#" class="class2">Careers</a></small> <br><br>
                 <small><a href="#" class="class2">Government relations</a></small> 
               </div>
             </div>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 div4_col">
             <div class="row"> <label style="padding-left: 25px;">Contact and Support</label></div><br>
             <div class="row">
-              <div class="col-md-8"style="padding-left: 25px;">
+              <div class="col-md-8 div4_col8"style="padding-left: 25px;">
                 <small><a href="#" class="class2">Contact us</a></small> <br><br>
                 <small><a href="#" class="class2">Support</a></small> <br><br>
                 <small><a href="#" class="class2">Extranet access</a></small><br><br>
@@ -482,7 +488,7 @@
 
       </div><br><br><br><br><br><br><br><br>
 
-      <div class="row" style="text-align:right; padding-left: 650px;">
+      <div class="row div5" style="text-align:right; padding-left: 650px;">
         <div class="col-md-4"><small>@2020 Nokia All rights reserved</small></div>
         <div class="col-md-5" style="margin-left: 1px;">
           <small><a href="#" class="class3" style="margin-left: 5px;">Cookies</a></small>
@@ -494,6 +500,7 @@
       </div>
 
      </div>
-   </div>
+    </div>
+  
 </body>
 </html>

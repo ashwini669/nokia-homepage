@@ -4,6 +4,10 @@
       
  }
 
+ .header{
+   height: 100vh;
+ }
+
  .class1:hover{
      color: blue;
      text-decoration: none;
@@ -69,7 +73,7 @@
     width: 310px;
     margin:0px ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 310px 500px;
     margin-left: 3px;
     margin-top: 20px;
     padding-top: 10px;
@@ -82,7 +86,7 @@
     width: 310px;
     margin:0px ;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:310px 500px;
     margin-left: 20px;
     margin-top: 20px;
     padding-left: 3px;
@@ -259,3 +263,94 @@ hr.solid3 {
 .tab { 
   padding-left: 30px;
 } 
+
+.icon-bar{
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .img3{
+    width:480px;
+    height:400px;
+    margin-top: 2px;
+  }
+
+  .img4{
+    width:480px ;
+    height:350px;
+    background-size:550px 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .img5{
+    width:480px;
+    height:350px;
+    background-size:550px 380px;
+    margin-left: 0px;
+  }
+
+  .div2{
+    height:800px;
+  }
+
+  .div3{
+    margin-top:1200px;
+  }
+
+  .div3_column2{
+    padding-top:8px;
+  }
+  .div3_column3{
+    padding-top:8px;
+    margin-left:0px;
+    padding-left:0px;
+  }
+
+  .div4{
+    width:460px;
+    height:2100px;
+  }
+
+  .icon1{
+    margin-left:28px;
+    margin-top: 0px;
+  }
+  .icon2,.icon3,.icon4,.icon5{
+    padding-top:10px;
+  }
+
+  .div4_p1{
+    margin-left:12px;
+    padding-top:20px;
+  }
+
+  .div4_col{
+    margin-top: 30px;
+  }
+
+  .div4_col2,.div4_col4,.div4_col7{
+    padding-left:27px;
+    padding-top:14px;
+  }
+
+  .div5{
+    padding-top:0px;
+  }
+}
